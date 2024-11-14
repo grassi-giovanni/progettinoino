@@ -38,3 +38,5 @@ def menu(listaSpesa):
             rimuovi_daListaSpesa(listaSpesa)
 
 menu(listaSpesa)
+
+#MANCA ULTIMO COMMIT PER SISTEMARE LA RIMOZIONE E COMMENTI#
