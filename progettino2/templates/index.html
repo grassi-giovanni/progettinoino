@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>Funziona ancora tutto</h1>
+    <h1>La tua Lista della Spesa</h1>
+    {% if lista %}
+        <ul>
+            {% for elemento in lista %}
+                <li>{{ elemento }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>La lista è vuota.</p>
+    {% endif %}
 </body>
 </html>
